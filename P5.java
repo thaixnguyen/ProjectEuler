@@ -1,4 +1,4 @@
-//Really cheap way of doing this, but it works. 
+//Really cheap way of doing this by using properties of numbers. 
 class P5{
 	public static void main(String args[]){
 		int primes[] = {2, 3, 5, 7, 11, 13, 17, 19};
