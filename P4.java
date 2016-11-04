@@ -1,3 +1,5 @@
+//Will make an alternative solution eventually with modulo for cleverness (^:
+
 class P4{
 	public static boolean Palindrome(int n){
 		String number = Integer.toString(n);
