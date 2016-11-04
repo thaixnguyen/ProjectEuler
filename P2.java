@@ -1,3 +1,5 @@
+// Not the prettiest solution but it works heh.
+
 class P2{
 	static int x = 0;
 	static int y = 1;
