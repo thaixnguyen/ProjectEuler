@@ -1,3 +1,4 @@
+//Brute forced a solution, couldn't figure a clever way of doing this.
 class P6{
 	public static void main(String[] args){
 		int sum1 = 0;
