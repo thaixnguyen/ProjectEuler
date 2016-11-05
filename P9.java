@@ -1,3 +1,5 @@
+//Just brute forced this one using simple arithmetic and for loops.
+
 public class P9{
 	private static final int N = 1000;
 	public static int ProjectEuler9(){
