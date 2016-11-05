@@ -7,8 +7,8 @@ class P8{
 		for (int i = 0; i + Adjacent <= BigNumber.length(); i++){ //For loop used to go through the string.
 			long Product = 1; //Set as one since multiplying any number by 1 doesn't change the value.
 			for (int j = 0; j < Adjacent; j++){ //Same purpose for the first for loop.
-				Product *= BigNumber.charAt(i + j); //Multiplies the 13 adjacent numbers within the string using the for loops and returns the product.
-			MaxProduct = Math.max(Product, MaxProduct); //Compares the value of maxprod and prod and takes the maximum.
+				Product *= BigNumber.charAt(i + j) - '0'; //Multiplies the 13 adjacent numbers within the string using the for loops and returns the product as a value rather than a string.
+			MaxProduct = Math.max(Product, MaxProduct); //Compares the value of MaxProduct and Product and takes the maximum.
 			}
 		}
 		return Long.toString(MaxProduct); //Turns it into a string since our method is defined as a string.
