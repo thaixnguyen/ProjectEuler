@@ -1,3 +1,5 @@
+//Not a very interesting solution, could have used sieve of Eratosthenes to minimize the time but I was a bit lazy. 
+
 import java.lang.Math;
 class P10{
 	public static boolean isPrime (int n){
