@@ -1,3 +1,5 @@
+//Kinda struggled with this because I thought of using arrays, but like problem 7, it was just easier to use a counter.
+
 import java.lang.Math;
 class P12{
 	public static int Triangular(int n){
