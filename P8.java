@@ -1,3 +1,5 @@
+//Not sure if it's the most efficient solution, but it's a solution that worked for me.
+
 import java.lang.Math;
 class P8{
 	public static final int Adjacent = 13; //Finding 13 adjacent numbers within the 1000 digit number.
