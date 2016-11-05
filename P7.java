@@ -1,3 +1,5 @@
+//Thought of using arrays for this, but it was just easier making a counter for the nth prime.
+
 import java.lang.Math;
 
 class P7{
