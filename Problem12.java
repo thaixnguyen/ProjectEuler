@@ -13,7 +13,7 @@ class P12{
 	public static int Divisors(){
 		int counter = 0; //set a counter variable.
 		int n = 0; //set a variable equal to the triangular number.
-		int j = 0; //the variable used for the parameter of Triangular.
+		int j = 0; //the variable used for the argument of Triangular.
 		while (counter <= 500){
 			counter = 0; //resets the counter.
 			j += 1; //adds 1 to j everytime it loops around.
