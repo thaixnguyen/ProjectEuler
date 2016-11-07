@@ -7,7 +7,7 @@ class P12{
 		for (int i = 0; i <= n; i++){
 			sum += i;
 		}
-		return sum; //returns the sum of n*(n+1)/n which is the definition of a triangular number.
+		return sum; //returns n*(n+1)/n which is the definition of a triangular number.
 	}
 
 	public static int Divisors(){
